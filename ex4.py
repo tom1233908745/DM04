@@ -18,7 +18,12 @@ def main():
             tails += 1
 
     print("Heads: " + str(heads) + " Tails:" + str(tails))
-
+    
+    if heads > tails:
+        print(str(name) + " won!")
+    else:
+        print(str(name) + " lost!")
+        
     return
 
 if __name__ == "__main__":
