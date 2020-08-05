@@ -1,11 +1,16 @@
 import random
 def main():
 
+    # 名前を聞くパート
+    print("Who are you? ")
+    name = input()
+    print("Hello, " + name + "!")
+    
     heads = 0
     tails = 0
 
     print("Tossing a coin...");
-
+    #コイントスパート     
     for i in range(3):
         num = random.random()
         print(num)
